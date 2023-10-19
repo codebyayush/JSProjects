@@ -1,0 +1,14 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+    
+}
+
+form{
+    display: flex;
+    justify-content:center;
+    font-family: 'Poppins', sans-serif;
+
+}
