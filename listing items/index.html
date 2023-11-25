@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>LIST PRODUCT</h1>
+    <form action="#" id="form-container">
+      <label for="price">Selling Price:</label>
+      <input type="text" id="price" required /><br />
+      <label for="name">Product Name:</label>
+      <input type="name" id="name" required /><br />
+      <label for="category">Choose Category:</label>
+      <select type="category" id="category" required>
+        <br />
+        <option value="Electronics">Electronics</option>
+        <option value="food">Food</option>
+        <option value="skincare">Skincare</option>
+      </select>
+      <button type="submit" id="submit-btn">SUBMIT</button>
+    </form>
+    <div id="products"><h1>Products</h1>
+    <div id="electronics">
+      <h2>Electronics</h2>
+    </div>
+    <div id="food">
+      <h2>Food</h2>
+    </div>
+    <div id="skicare">
+      <h2>Skincare</h2>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script src="new.js"></script>
+  </body>
+</html>
